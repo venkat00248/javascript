@@ -8,3 +8,9 @@ In JavaScript, Hoisting is the default behavior of moving all the declarations a
 A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
 4.Lexical scope 
 Lexical scope is the ability for a function scope to access variables from the parent scope.
+
+5.Async Await
+
+async and await make promises easier to write
+async makes a function return a Promise
+await makes a function wait for a Promise
