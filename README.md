@@ -5,6 +5,6 @@ The temporal dead zone (TDZ) is a specific period in the execution of JavaScript
 2.Hoisting
 In JavaScript, Hoisting is the default behavior of moving all the declarations at the top of the scope before code execution. Basically, it gives us an advantage that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local
 3.What is closure in JavaScript? 
-Closure in JavaScript is a form of lexical scoping used to preserve variables from the outer scope of a function in the inner scope of a function. Lexical scoping is the process used to define the scope of a variable by its position in the source code.
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
 4.Lexical scope 
 Lexical scope is the ability for a function scope to access variables from the parent scope.
