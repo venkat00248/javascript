@@ -95,11 +95,14 @@ A closure is a function that retains access to variables from its outer (enclosi
 
 ex: 
 function outerFunction() {
+
   // Outer function scope
+  
   let outerVariable = "I am from outerFunction";
 
   function innerFunction() {
     // Inner function scope
+    
     console.log(outerVariable);
   }
 
