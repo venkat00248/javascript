@@ -33,6 +33,7 @@ A promise is an object with a then method, which is used to register callbacks t
 
 ex:
 // Function that returns a promise
+
 function fetchData() {
   return new Promise((resolve, reject) => {
     // Simulate an asynchronous operation (e.g., fetching data from a server)
