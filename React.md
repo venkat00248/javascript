@@ -5,6 +5,7 @@ In React, error boundaries are a feature that allows components to catch JavaScr
 2.Ex of custom Hook
 
 // useUpperCase.js
+
 import { useState, useEffect } from 'react';
 
 const useUpperCase = (initialText) => {
