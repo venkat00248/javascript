@@ -25,16 +25,14 @@ Arr1 + Arr2 + Arr3 + Arr4 =1000,
 which is maximum.
 
 coding
+
 function maxSubarraySum(arr, k) {
   let maxSum = 0;
   let currentSum = 0;
-
-  // Calculate the sum of the first subarray of size k
   for (let i = 0; i < k; i++) {
     currentSum += arr[i];
   }
-
-  // Iterate through the array to find the maximum sum
+  
   for (let i = k; i < arr.length; i++) {
     currentSum = currentSum - arr[i - k] + arr[i];
     maxSum = Math.max(maxSum, currentSum);
