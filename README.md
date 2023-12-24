@@ -37,12 +37,17 @@ ex:
 
 function fetchData() {
   return new Promise((resolve, reject) => {
+  
     // Simulate an asynchronous operation (e.g., fetching data from a server)
+    
     setTimeout(() => {
+    
       const success = true; // Simulating a successful response
       if (success) {
+      
         resolve("Data successfully fetched!");
       } else {
+      
         reject("Error fetching data");
       }
     }, 2000); // Simulating a delay of 2000 milliseconds (2 seconds)
