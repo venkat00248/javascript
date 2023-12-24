@@ -43,3 +43,47 @@ const App = () => {
 export default App;
 
 
+3. Ex of HOC
+
+// withUpperCase.js
+
+import React from 'react';
+
+const withUpperCase = (WrappedComponent) => {
+  return (props) => {
+    const modifiedProps = {
+      ...props,
+      text: props.text.toUpperCase(),
+    };
+
+    return <WrappedComponent {...modifiedProps} />;
+  };
+};
+
+export default withUpperCase;
+
+// MyComponent.js
+import React from 'react';
+
+const MyComponent = ({ text }) => {
+  return <div>{text}</div>;
+};
+
+export default MyComponent;
+
+// App.js
+import React from 'react';
+import MyComponent from './MyComponent';
+import withUpperCase from './withUpperCase';
+
+const MyComponentWithUpperCase = withUpperCase(MyComponent);
+
+const App = () => {
+  return <MyComponentWithUpperCase text="Hello, World!" />;
+};
+
+export default App;
+
+
+
+
