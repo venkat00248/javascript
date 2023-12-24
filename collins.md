@@ -6,6 +6,7 @@ NOTE*: A subarray is a contiguous part of any given array.
 Example 1:
  
 Input:
+
 N = 4, K = 2
 Arr = [100, 200, 300, 400]
 Output:
