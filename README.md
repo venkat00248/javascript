@@ -75,7 +75,9 @@ try {
 } finally {
   // Code that will be executed regardless of whether an exception occurred or not (optional)
 }
+
 8.Callbak hell
+
 In JavaScript, callbacks are functions passed as arguments to be executed later, often used in asynchronous operations.
 Callback hell (or "pyramid of doom") occurs when you have multiple nested callbacks, making the code difficult to read and maintain.
 
