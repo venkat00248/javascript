@@ -73,7 +73,7 @@ output:
 	{"90" : 940},
 }
 
-coding
+coding approch 1
 
 const transformedObject = {};
 
@@ -83,6 +83,10 @@ inputArray.forEach(item => {
 
 console.log(transformedObject);
 
+ approch 2
+ 
+const transformedArray = inputArray.map(item => ({ [item.ProductID]: item.Qty }));
+console.log(transformedArray);
 
 #programming 3
 
