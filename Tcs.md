@@ -52,6 +52,7 @@ Example:
   border: 2px solid black;
 }
 In this case, the total space the element occupies is 100 pixels, and the content area will be 76 pixels (100 - 10 - 2).
+
 4.controlled vs un controlled
 
 #Controlled Components:
