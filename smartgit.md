@@ -8,4 +8,9 @@ find vs filter
 
 debounce
 
+code spliting
+lazy loading
+optimization techniques
+
+real dom vs virtual dom
 
