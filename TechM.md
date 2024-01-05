@@ -68,4 +68,33 @@ promise.then((response)=>{
 }).catch((error)=>{
     console.log("error", error)
 })
+# 4  code for fetch data and display in UI
+import React from "react";
+import { useEffect, useState } from "react";
+import axios from "axios";
+export const Together = () => {
+  const [data, setData] = useState([]);
+  const fetchData = async () => {
+    try {
+      const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
+      console.log("resp", res.data);
+      // const resp = res.json();
+
+      setData(res);
+    } catch (error) {
+      console.log("error", error);
+    }
+  };
+  useEffect(() => {
+    fetchData();
+  }, []);
+  return (
+    <>
+      <pre>{JSON.stringify(data, null, 2)}</pre>
+    </>
+  );
+};
+
 # 4 latest es6 and html5 and css3 features
+
+
