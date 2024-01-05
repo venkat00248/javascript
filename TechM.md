@@ -80,7 +80,7 @@ export const Together = () => {
       console.log("resp", res.data);
       // const resp = res.json();
 
-      setData(res);
+      setData(res.data);
     } catch (error) {
       console.log("error", error);
     }
@@ -90,10 +90,24 @@ export const Together = () => {
   }, []);
   return (
     <>
-      <pre>{JSON.stringify(data, null, 2)}</pre>
+      {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
+      {data.length >= 0 ? (
+        data.map((item) => {
+          return (
+            <div>
+              <p>{item.userId}</p>
+              <p>{item.id}</p>
+              <p>{item.title}</p>
+            </div>
+          );
+        })
+      ) : (
+        <div>no data </div>
+      )}
     </>
   );
 };
+
 
 # 4 latest es6 and html5 and css3 features
 
