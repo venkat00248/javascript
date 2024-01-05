@@ -112,3 +112,13 @@ export const Together = () => {
 # 4 latest es6 and html5 and css3 features
 
 
+div:n+1 {
+
+background:red;
+}
+
+map vs filter
+
+arrow function
+
+
