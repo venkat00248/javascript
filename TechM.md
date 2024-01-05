@@ -109,16 +109,53 @@ export const Together = () => {
 };
 
 
-# 4 latest es6 and html5 and css3 features
 
-
-div:n+1 {
-
-background:red;
+# 5 pseudo elements 
+<div class="container">
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
+  <div class="box">4</div>
+</div>
+.container {
+  display: flex;
 }
 
-map vs filter
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  margin: 5px;
+}
 
-arrow function
+.box:nth-child(2) {
+  /* Styles for the second div go here */
+  background-color: #3498db;
+  color: #fff;
+}
+.box:last-child {
+  /* Styles for the last div go here */
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.box:nth-last-child(2) {
+  /* Styles for the last but one div go here */
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+# 6 arrow function
+
+Key points about arrow functions:
+
+Concise Syntax: Arrow functions have a more concise syntax, especially when the function body is a single statement.
+
+No this Binding: Arrow functions do not have their own this. They inherit this from the enclosing scope. This can be useful in certain situations, especially in callbacks or when dealing with nested functions.
+
+No arguments Object: Arrow functions also do not have their own arguments object. Instead, you can use the rest parameters (...args) to get all arguments.
+
+# 7 map vs filter
+# 8 latest es6 and html5 and css3 features
 
 
