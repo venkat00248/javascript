@@ -52,4 +52,19 @@ fetchDataFromAPI()
     console.error('Error fetching data:', error.message);
   });
 
-# 3 code for 
+# 3 code for  simple promise 
+
+const promise = new Promise((resolve, reject)=>{
+let isPromise = false
+if(isPromise){
+  resolve("data")  
+}
+else{
+    reject("data")
+}
+})
+promise.then((response)=>{
+    console.log("response", response)
+}).catch((error)=>{
+    console.log("error", error)
+})
