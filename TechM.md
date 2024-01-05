@@ -52,7 +52,7 @@ fetchDataFromAPI()
     console.error('Error fetching data:', error.message);
   });
 
-# 3 code for  simple promise 
+#3 code for  simple promise 
 
 const promise = new Promise((resolve, reject)=>{
 let isPromise = false
@@ -68,3 +68,4 @@ promise.then((response)=>{
 }).catch((error)=>{
     console.log("error", error)
 })
+# 4 latest es6 and html5 and css3 features
