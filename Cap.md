@@ -33,3 +33,6 @@ array.forEach((value) => {
 
 console.log(uniqueArray);
 
+react lifecycle methods 
+redux middlewares
+es6  fetures
