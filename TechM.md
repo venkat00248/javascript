@@ -210,25 +210,20 @@ Latest ES6, HTML5, and CSS3 Features:
 ES6 (ECMAScript 2015+):
 Arrow Functions:
 
-javascript
-Copy code
+
 const add = (a, b) => a + b;
 Template Literals:
 
-javascript
-Copy code
 const name = "World";
 console.log(`Hello, ${name}!`);
 Destructuring Assignment:
 
-javascript
-Copy code
+
 const person = { name: "John", age: 30 };
 const { name, age } = person;
 Let and Const:
 
-javascript
-Copy code
+
 let variable = 10;
 const constantValue = 20;
 
