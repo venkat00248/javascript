@@ -278,75 +278,34 @@ CSS3
 
 Certainly! Let's break down your question into two parts:
 
-Map vs. Filter:
-Map:
-Purpose: The map method is used for transforming each element in an array and creating a new array with the results.
-Syntax:
-javascript
-Copy code
-const newArray = array.map((currentValue, index, array) => {
-  // return new element based on current element
-});
-Example:
-javascript
-Copy code
-const numbers = [1, 2, 3, 4];
-const doubled = numbers.map(num => num * 2);
-// doubled is now [2, 4, 6, 8]
-Filter:
-Purpose: The filter method is used for creating a new array with elements that satisfy a specific condition.
-Syntax:
-javascript
-Copy code
-const newArray = array.filter((currentValue, index, array) => {
-  // return true to keep the element, false to filter it out
-});
-Example:
-javascript
-Copy code
-const numbers = [1, 2, 3, 4];
-const evenNumbers = numbers.filter(num => num % 2 === 0);
-// evenNumbers is now [2, 4]
 Latest ES6, HTML5, and CSS3 Features:
 ES6 (ECMAScript 2015+):
 Arrow Functions:
 
-javascript
-Copy code
 const add = (a, b) => a + b;
 Template Literals:
 
-javascript
-Copy code
 const name = "World";
 console.log(`Hello, ${name}!`);
 Destructuring Assignment:
 
-javascript
-Copy code
 const person = { name: "John", age: 30 };
 const { name, age } = person;
 Let and Const:
 
-javascript
-Copy code
 let variable = 10;
 const constantValue = 20;
 HTML5:
 Semantic Elements:
 
-html
-Copy code
 <article>, <section>, <header>, <footer>, <nav>, <main>, etc.
 New Form Elements:
 
-html
-Copy code
+
 <input type="date">, <input type="email">, <input type="url">, etc.
 Canvas API:
 
-html
-Copy code
+
 <canvas id="myCanvas" width="200" height="100"></canvas>
 
 CSS3:
