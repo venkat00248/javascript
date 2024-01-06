@@ -176,7 +176,6 @@ const newArray = array.filter((currentValue, index, array) => {
   // return true to keep the element, false to filter it out
 });
 
-Copy code
 const numbers = [1, 2, 3, 4];
 const evenNumbers = numbers.filter(num => num % 2 === 0);
 // evenNumbers is now [2, 4]
