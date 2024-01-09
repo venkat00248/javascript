@@ -3,6 +3,8 @@ overview and flow of redux and redux principle
 shadow dom 
 
 # coding 1 
+
+
  function lengthOfLastWord(s) {
     let length = 0;
     let end = s.length - 1;
