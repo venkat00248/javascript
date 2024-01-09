@@ -1,4 +1,5 @@
 how react works 
+overview and flow of redux and redux principle
 shadow dom 
 
 # coding 1 
