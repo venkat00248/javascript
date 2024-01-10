@@ -57,3 +57,37 @@ const lengthOfLastWord = (s) => {
  
   return length;
 };
+
+
+
+
+import React from 'react';
+
+// Higher Order Component
+const withExtraProps = (WrappedComponent) => {
+  return (props) => (
+    <WrappedComponent {...props} extraProp="This is an extra prop from HOC" />
+  );
+};
+
+// Functional Component
+const MyComponent = (props) => (
+  <div>
+    <p>My Component</p>
+    <p>Extra Prop: {props.extraProp}</p>
+  </div>
+);
+
+// Using the HOC with the functional component
+const EnhancedComponent = withExtraProps(MyComponent);
+
+// App component
+const App = () => (
+  <div>
+    <h1>Higher Order Component Example</h1>
+    <EnhancedComponent />
+  </div>
+);
+
+export default App;
+
