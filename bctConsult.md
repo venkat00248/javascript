@@ -27,3 +27,30 @@ shadow dom
 console.log(lengthOfLastWord("Hello World"));  // Output: 5
 console.log(lengthOfLastWord("   fly me   to   the moon  "));  // Output: 4
 console.log(lengthOfLastWord("luffy is still joyboy"));  // Output: 6
+
+
+
+
+
+
+
+
+
+
+
+
+const lengthOfLastWord = (s) => {
+  let length = 0;
+  let lastWordFound = false;
+ 
+  for (let i = s.length - 1; i >= 0; i--) {
+    if (s[i] !== ' ') {
+      length++;
+      lastWordFound = true;
+    } else if (lastWordFound) {
+      break;
+    }
+  }
+ 
+  return length;
+};
