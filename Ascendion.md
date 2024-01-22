@@ -7,7 +7,7 @@ Content:
 
 The innermost part of the box that holds the actual content of the element (e.g., text, images).
 
-Padding:
+Padding: 
 
 The space between the content and the element's border. It provides inner spacing within the box.
 
