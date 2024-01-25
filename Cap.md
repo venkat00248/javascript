@@ -32,6 +32,23 @@ array.forEach((value) => {
 });
 
 console.log(uniqueArray);
+# 4 way 
+const array = [1,2,5,3,2,6,3]
+
+const filterFunc = (arr) => {
+const updatedArr = []
+     for(let i = 0; i<=arr.length-1; i++){
+           if (updatedArr.indexOf(arr[i]) === -1) {
+            updatedArr.push(arr[i]);
+        }
+         
+     }
+    
+    return updatedArr
+    
+}
+
+console.log("Welcome to Programiz!",filterFunc(array));
 
 react lifecycle methods 
 redux middlewares
